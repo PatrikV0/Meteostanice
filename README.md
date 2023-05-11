@@ -2,6 +2,7 @@
 # Meteostanice
 Meteostanice využívá openweathermap API z kterého pomocí požadavku GET získá JSON informace o lokaci, teplotě, vlhkosti atd... Data jsou následně pomocí knihovny ArduinoJson uloženy do proměnných. Současně se zapisujou informace o vlhkosti a teploty místnosti z DHT11 senzoru. Hodnoty proměnných jsou následně zapsány na Blynk a HTTP server. 
 
+
 ## Zapojení
 ![image](https://github.com/PatrikV0/Meteostanice/assets/94992801/d93beb6f-f9e1-4934-98e5-51064e9291ba)
 
@@ -19,6 +20,8 @@ ESP32 se připojí na WIFI, vypíše adresu HTTP serveru a připojí se na Blynk
 
 ## HTTP server
 ![httpServer](https://github.com/PatrikV0/Meteostanice/assets/94992801/f23e8d97-29c9-49da-abf9-1e1134d95471)
+## Kód 
+Kód je podrobněji vysvětlen ve výše uvedeném souboru main.cpp
 
 
 
