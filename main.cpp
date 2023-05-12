@@ -13,6 +13,7 @@
 
 
 const char *apiKey = ""; // Proměnná do které se uloží API klíč, který nalezneme po registraci na stránce https://home.openweathermap.org/
+String CityID = "3065607"; // ID města které nalezneme na https://home.openweathermap.org/
 const char *ssid = "";
 const char *password = "";
 const char *auth = BLYNK_AUTH_TOKEN;
