@@ -20,8 +20,18 @@ ESP32 se připojí na WIFI, vypíše adresu HTTP serveru a připojí se na Blynk
 
 ## HTTP server
 ![httpServer](https://github.com/PatrikV0/Meteostanice/assets/94992801/f23e8d97-29c9-49da-abf9-1e1134d95471)
-## Kód 
-Kód je podrobněji vysvětlen ve výše uvedeném souboru main.cpp
+## Návod na openweathermap API
+Nejdříve je nutné zaregistrovat se na https://openweathermap.org/. Po registraci dostaneme přístup k API klíči na https://home.openweathermap.org/api_keys. 
+![image](https://github.com/PatrikV0/Meteostanice/assets/94992801/c336af02-dfeb-4a95-a84e-938e763e2c85)
+
+API klíč zkopírujeme a vložíme do proměnné apiKey v kódu.
+Do proměnné cityID vložíme ID města u kterého chceme znát počasí.
+![image](https://github.com/PatrikV0/Meteostanice/assets/94992801/8bc4b340-0aea-4b85-8045-bbd854b18462)
+### CityID
+ID města zjistíme z url adresy 
+![image](https://github.com/PatrikV0/Meteostanice/assets/94992801/b3727f49-fb10-4fd2-9b50-470c536a4d1a)
+
+
 
 
 
